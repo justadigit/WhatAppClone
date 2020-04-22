@@ -12,7 +12,6 @@ $(window).scroll(function(){
     }
 })
 window.onload=function(){
-    alert("There are many more of my friends... But I will get tired if I list them all.😂")
     $("#top").css({"display":"block"})
     $("#h").css({"display":"block"})
     $("#a").click()
