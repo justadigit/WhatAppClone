@@ -1,0 +1,152 @@
+body {
+    margin:0;
+}
+#top{
+    background:#075e54;
+    height:60px;
+    width:100vw;
+    display:none;
+}
+#h{
+    background:#075e54;
+    height:50px;
+    box-shadow:0 3px 3px 0px rgba(0,0,0,0.5);
+    display:none;
+}
+#top b{
+    color:white;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:20px;
+}
+.fa-search,.fa-ellipsis-v{
+    color:white;
+    float:right;
+    font-size:20px;
+    margin-top:20px;
+    margin-right:30px;
+}
+.fa-ellipsis-v:hover + #menu{
+    display:block;
+}
+.fa-ellipsis-v:hover{
+    color:#ece5dd;
+}
+#menu{
+    position:fixed;
+    top:0;
+    right:0;
+    z-index:5;
+    display:none;
+    right:5px;
+    top:50px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.5);
+    border-radius:5px;
+    background:white;
+    padding:20px;
+    line-height:40px;
+}
+#h span{
+    color:white;
+    font-size:15px;
+    float:left;
+    margin-top:20px;
+    text-align:center;
+    font-weight:bold;
+    height:25px;
+}
+#a,#c,#b{
+    width:30vw;
+}
+#camera{
+    width:10vw;
+}
+#b:hover{
+    border-bottom:5px solid #ece5dd;
+}
+#a:hover{
+    border-bottom:5px solid #ece5dd;
+}
+#c:hover{
+    border-bottom:5px solid #ece5dd;
+}
+#body{
+    display:none;
+}
+#chat{
+    padding:10px;
+    padding-top:15px; 
+}
+.chatn{
+    margin-top:35px;
+}
+#chat img{
+    height:50px;
+    width:50px;
+    object-fit:cover;
+    border-radius:50%;
+    float:left;
+}
+#chat b{
+    margin-left:10px;
+    float:left;
+}
+#chat #left{
+    margin-left:10px;
+    float:left;
+    margin-top:5px;
+    color:grey;
+}
+#chat #right{
+    float:right;
+    margin-top:-20px;
+    color:grey;
+}
+#pending{
+    color:#25d366;
+}
+#circle{
+    background:#25d366;
+    color:white;
+    padding-right:5px;
+    padding-left:5px;
+    border-radius:50%;
+    float:right;
+    margin-top:5px;
+}
+#break{
+    height:1px;
+    width:77.5vw;
+    background:#ddd;
+    float:right;
+    margin-top:20px;
+    margin-right:25px;
+}
+#break1{
+    background:#eee;
+    margin-top:40px;
+    font-weight:bold;
+    color:grey;
+    padding:5px;
+}
+.fa-check{
+    margin-right:5px;
+    color:#34b7f1;
+}
+#callemp{
+    display:none;
+    color:grey;
+    font-size:20px;
+    justify-content:center; 
+    margin-top:65%;
+}
+#status{
+    display:none;
+}
+#status #break{
+    height:0.5px;
+}
+#status img{
+    box-shadow:0 0 0 3px #128c7e;
+}
